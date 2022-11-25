@@ -15,6 +15,7 @@ stages {
 	{
 		steps {
 				echo "This is master branch"
+				sh "mkdir test"
 			}
 	}
 
